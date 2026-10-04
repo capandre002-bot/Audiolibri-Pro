@@ -1,0 +1,63 @@
+name: audiolibri_nuovo
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  just_audio: ^0.9.36
+  just_audio_background: ^0.0.1-beta.17
+  shared_preferences: ^2.2.2
+  file_picker: ^8.1.2
+  firebase_core: ^4.14.0
+  firebase_auth: ^6.6.1
+  google_sign_in: ^7.2.0
+  font_awesome_flutter: ^11.0.0
+  cloud_firestore: ^6.10.0
+  firebase_storage: ^13.6.0
+  path_provider: ^2.1.6
+  url_launcher: ^6.3.2
+  image_picker: ^1.2.3
+  http: ^1.6.0
+  cached_network_image: ^4.0.0
+  google_fonts: ^8.2.1
+  dio: ^5.4.0
+  permission_handler: ^11.3.1
+  firebase_messaging: ^16.7.0
+  package_info_plus: ^9.0.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.8
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+
+dependency_overrides:
+  flutter_plugin_android_lifecycle: 2.0.20
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo_app.png"
+  adaptive_icon_background: "#0A2444"
+  adaptive_icon_foreground: "assets/logo_app.png"
+
+flutter_native_splash:
+  color: "#0A2444"
+  image: "assets/logo_app.png"
+  android_12:
+    image: "assets/logo_app.png"
+    icon_background_color: "#0A2444"
+    color: "#0A2444"
+
